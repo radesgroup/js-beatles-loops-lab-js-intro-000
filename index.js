@@ -34,18 +34,18 @@ function johnLennonFacts(facts){
   return newFacts;
 }
 
-var newFacts = [];
-const facts = [
+var newFacts1 = [];
+const facts1 = [
   "While on tour, he enjoyed playing Monopoly",
   "Harmonica was the first instrument Lennon learned to play"
 ]
-function johnLennonFacts(facts){
+function johnLennonFacts(facts1){
   let i = 0;
-  while (i < facts.length){
-    newFacts.push(facts[i] + "!!!")
+  while (i < facts1.length){
+    newFacts1.push(facts1[i] + "!!!")
     i++;
   }
-  return newFacts;
+  return newFacts1;
 }
 
 
