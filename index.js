@@ -47,7 +47,7 @@ let dif = 0;
     return loveBeatlesEmpty;
              }
   else if(r >= 15){
-    loveBeatlesEmpty = ["I love the B!"];
+    loveBeatlesEmpty = ["I love the Beatles!"];
   }return loveBeatlesEmpty;
 }
 
@@ -64,6 +64,6 @@ let dif = 0;
     return loveBeatlesEmpty;
              }
   else if(r >= 15){
-    loveBeatlesEmpty = ["I love the B!"];
+    loveBeatlesEmpty = ["I love the Beatles!"];
   }return loveBeatlesEmpty;
 }
