@@ -34,6 +34,7 @@ function johnLennonFacts(facts){
   }
   return newFacts;
 }
+var r = 7;
 var loveBeatlesEmpty = [];
 function iLoveTheBeatles(r){
 let dif = 0;
@@ -49,4 +50,3 @@ let dif = 0;
     loveBeatlesEmpty = ["I love the B!"];
   }return loveBeatlesEmpty;
 }
-iLoveTheBeatles(7)
