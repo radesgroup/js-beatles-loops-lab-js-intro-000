@@ -36,7 +36,7 @@ function johnLennonFacts(facts){
 
 var newFacts = [];
 const facts = [
-  "While on tour, he enjoyed playing Monopoly"
+  "While on tour, he enjoyed playing Monopoly",
   "Harmonica was the first instrument Lennon learned to play"
 ]
 function johnLennonFacts(facts){
