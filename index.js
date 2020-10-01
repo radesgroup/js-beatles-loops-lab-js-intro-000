@@ -1,1 +1,36 @@
 // add solution here
+var myArray =[];
+var musicians = [
+  "John Lennon",
+  "Paul McCartney",
+  "George Harrison",
+  "Ringo Starr"];
+var instruments = [
+  "Guitar",
+  "Bass Guitar",
+  "Lead Guitar",
+  "Drums"];
+function theBeatlesPlay(musicians, instruments){
+
+  for (let n = 0; n < musicians.length; n++){
+   myArray.push(musicians[n] + ' plays ' + instruments[n]);
+}
+return myArray;
+}
+var newFacts = [];
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice",
+  "While on tour, he enjoyed playing Monopoly",
+  "Harmonica was the first instrument Lennon learned to play"
+];
+function johnLennonFacts(facts){
+  let n = 0;
+  while (n < facts.length){
+    newFacts.push(facts[n] + "!!!")
+    n++;
+  }
+  return newFacts;
+}
