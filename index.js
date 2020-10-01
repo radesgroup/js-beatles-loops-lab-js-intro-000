@@ -49,4 +49,4 @@ let dif = 0;
     loveBeatlesEmpty = ["I love the B!"];
   }return loveBeatlesEmpty;
 }
-iLoveTheBeatles(13)
+iLoveTheBeatles(7)
