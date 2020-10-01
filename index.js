@@ -34,7 +34,16 @@ function johnLennonFacts(facts){
   return newFacts;
 }
 
-
+var g = [];
+const fact = [];
+function johnLennonFacts(fact){
+  let i = 0;
+  while (i < fact.length){
+    g.push(fact[i] + "!!!")
+    i++;
+  }
+  return g;
+}
 
 
 var r = 7;
