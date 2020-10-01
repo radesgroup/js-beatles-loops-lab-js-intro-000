@@ -35,4 +35,18 @@ function johnLennonFacts(facts){
   return newFacts;
 }
 var loveBeatlesEmpty = [];
-function iLoveTheBeatles()
+function iLoveTheBeatles(r){
+let dif = 0;
+  if (r < 15){
+    do {
+    loveBeatlesEmpty.push("I love the Beatles!")
+    dif++;
+       }
+    while (dif < (15 - r));
+    return loveBeatlesEmpty;
+             }
+  else if(r >= 15){
+    loveBeatlesEmpty = ["I love the B!"];
+  }return loveBeatlesEmpty;
+}
+iLoveTheBeatles(13)
