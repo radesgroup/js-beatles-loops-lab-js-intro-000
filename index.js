@@ -50,3 +50,20 @@ let dif = 0;
     loveBeatlesEmpty = ["I love the B!"];
   }return loveBeatlesEmpty;
 }
+
+var r = 17;
+var loveBeatlesEmpty = [];
+function iLoveTheBeatles(r){
+let dif = 0;
+  if (r < 15){
+    do {
+    loveBeatlesEmpty.push("I love the Beatles!")
+    dif++;
+       }
+    while (dif < (15 - r));
+    return loveBeatlesEmpty;
+             }
+  else if(r >= 15){
+    loveBeatlesEmpty = ["I love the B!"];
+  }return loveBeatlesEmpty;
+}
