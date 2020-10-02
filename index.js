@@ -21,7 +21,7 @@ return myArray;
 var newFacts = [];
 const facts = [
   "While on tour, he enjoyed playing Monopoly",
-  "Harmonica was the first instrument Lennon learned to play"
+  "Harmonica was the first instrument Lennon learned to play",
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
