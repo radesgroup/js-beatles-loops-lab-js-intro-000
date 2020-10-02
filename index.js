@@ -1,8 +1,8 @@
 // add solution here
-var myArray =[];
+
 
 function theBeatlesPlay(musicians, instruments){
-
+const myArray = [];
   for (let n = 0; n < musicians.length; n++){
    myArray.push(musicians[n] + ' plays ' + instruments[n]);
 }
