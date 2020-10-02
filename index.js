@@ -17,16 +17,17 @@ function theBeatlesPlay(musicians, instruments){
 }
 return myArray;
 }
+
 function johnLennonFacts(facts) {
-  const shoutedFacts = []
+  const newFacts = []
 
   let i = 0
   while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`)
+    newFacts.push(`${facts[i]}!!!`)
     i++
   }
 
-  return shoutedFacts
+  return newFacts
 }
 //var newFacts = [];
 //const facts = [
