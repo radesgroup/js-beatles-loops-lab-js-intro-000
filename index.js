@@ -32,8 +32,8 @@ function iLoveTheBeatles(n) {
   return arr
 }
 
-var r = 7;
-var loveBeatlesEmpty = [];
+//var r = 7;
+//var loveBeatlesEmpty = [];
 //function iLoveTheBeatles(r){
 //let dif = 0;
 //  if (r < 15){
