@@ -17,24 +17,34 @@ function theBeatlesPlay(musicians, instruments){
 }
 return myArray;
 }
+function johnLennonFacts(facts) {
+  const shoutedFacts = []
 
-var newFacts = [];
-const facts = [
-  "While on tour, he enjoyed playing Monopoly",
-  "Harmonica was the first instrument Lennon learned to play",
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-]
-function johnLennonFacts(facts){
-  let i = 0;
-  while (i < facts.length){
-    newFacts.push(facts[i] + "!!!")
-    i++;
+  let i = 0
+  while (i < facts.length) {
+    shoutedFacts.push(`${facts[i]}!!!`)
+    i++
   }
-  return newFacts;
+
+  return shoutedFacts
 }
+//var newFacts = [];
+//const facts = [
+  //"While on tour, he enjoyed playing Monopoly",
+  //"Harmonica was the first instrument Lennon learned to play",
+  //"He was the last Beatle to learn to drive",
+  //"He was never a vegetarian",
+  //"He was a choir boy and boy scout",
+  //"He hated the sound of his own voice"
+//]
+//function johnLennonFacts(facts){
+  //let i = 0;
+  //while (i < facts.length){
+  //  newFacts.push(facts[i] + "!!!")
+  //  i++;
+  //}
+  //return newFacts;
+//}
 
 
 var r = 7;
